@@ -1,0 +1,21 @@
+{
+  "credentials": {
+    "openweathermap": {
+      "apiKey": "b385aa7d4e568152288b3c9f5c2458a5"
+    },
+    "routee": {
+      "appId": "57cd83a3e4b0464b9119ba46",
+      "appSecret": "OXr7WYcP9A"
+    }
+  },
+  "settings": {
+    "city": "Thessaloniki",
+    "checkIntervalMinutes": 10,
+    "thresholdTemperatureC": 20,
+    "name": "Pavlo Ratushnyi",
+    "recipient": "+306948872100",
+    "sender": "Pavlo R",
+    "aboveMessage": "%name% Temperature more than %threshold%C. %temp%",
+    "belowMessage": "%name% Temperature less than %threshold%C. %temp%"
+  }
+}
